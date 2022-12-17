@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
-public class GitTest extends TestBase {
+public class GitHubTest extends TestBase {
     @Test
     void gitSelenideTest() {
         step("Open GitHub Selenide Page", () -> {
